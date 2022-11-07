@@ -30,6 +30,11 @@
 /*.booproj
 /*.DS_store
 
+# Unity per-user settings, don't save (we each have our own):
+# https://forum.unity.com/threads/whats-the-usersettings-directory.754436/
+/[Uu]ser[Ss]ettings
 
 
-
+# Don't save logs, those are regenerated on each build
+/[Ll]og
+/[Ll]ogs
