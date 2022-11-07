@@ -1,0 +1,35 @@
+
+
+
+
+
+# UNITY FILES
+# ______________________________________________________________
+# exclude unecessary Unity stuff, see link:
+# https://answers.unity.com/questions/22604/which-unity-project-files-can-be-ignored-for-versi.html
+
+# Unity Directories
+/[Ll]ibrary
+/[Tt]emp
+/[Oo]bj
+/[Bb]uild
+/[Bb]uilds
+
+# Unity Auto-Generated Files
+/sysinfo.txt
+/.hg
+/.git
+/.vs
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.DS_store
+
+
+
+
