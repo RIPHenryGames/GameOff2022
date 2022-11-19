@@ -17,12 +17,21 @@ public class CanvasClicking : MonoBehaviour, IPointerClickHandler
         if (hit)
         {
             Debug.Log("Hit: ");
+            counter.AddRep();
         }
     }
 
+    CounterBehavior counter;
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Start....");
+
+        GameObject c = GameObject.FindWithTag("Counter");
+
+        if(c != null) {
+          counter = c.GetComponent<CounterBehavior>();
+        }
     }
 
     // Update is called once per frame
