@@ -11,7 +11,6 @@ public class CounterBehavior : MonoBehaviour
     private int score;
     private const string message = "Reps: ";
 
-
     void Start()
     {
         this.score = 0;
@@ -27,6 +26,5 @@ public class CounterBehavior : MonoBehaviour
     public void AddRep()
     {
         this.score++;
-        Update();
     }
 }
